@@ -4,7 +4,7 @@ resource "aws_instance" "dev" {
     key_name =var.key_name
    
    tags = {
-    Name = "terra-ec2"
+    Name = "terraform-ec2"
   }
   
 }
